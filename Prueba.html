@@ -1,0 +1,17 @@
+<script>
+function checkObj(obj, checkProp) {
+  // Cambia solo el código debajo de esta línea
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found";
+  }
+}
+  // Cambia solo el código encima de esta línea
+}
+var myObj = {gift: "pony", pet: "kitten", bed: "sleigh"};
+
+checkObj(myObj, "gift");
+
+console.log(checkObj());
+</script>
